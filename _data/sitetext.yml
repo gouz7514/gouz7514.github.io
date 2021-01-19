@@ -1,7 +1,7 @@
 header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: You are breathtaking!
+    text: 코딩하는 올해의 카투사
+    button: 더 알아보기
     buttonlink: "#services"
 
 services:
