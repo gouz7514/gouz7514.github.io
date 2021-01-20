@@ -1,12 +1,12 @@
 header:
     title: You are breathtaking!
     text: 코딩하는 올해의 카투사
-    button: 더 알아보기
-    buttonlink: "#services"
+    button: 블로그 읽어보기
+    buttonlink: "https://velog.io/@gouz7514"
 
 services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "나의 강점"
+    text: "끈기, 책임감을 기반으로 매일매일 성장해 가는 개발자"
     section: services
     list:
       - title: "E-Commerce"
