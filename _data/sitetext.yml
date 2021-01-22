@@ -1,12 +1,27 @@
 header:
-    title: You are breathtaking!
+    title: 
     text: 코딩하는 올해의 카투사
     button: 블로그 읽어보기
     buttonlink: "https://velog.io/@gouz7514"
 
+introduce:
+    title: "영화 마니아, 피아니스트이자<br> 풀스택을 정복하고자 하는 개발자, 김학재입니다."
+    list:
+      - title: "들을 줄 알고 말할 줄 아는 개발자입니다."
+        text: "다양한 팀 프로젝트를 통해 팀장 및 팀원의 역할을 모두 진행했습니다.<br>
+        내가 아는 내용은 너도 알아야 하고, 너가 알아야 하는 내용은 나도 알아야 합니다."
+
+      - title: "성장하는 법을 아는 개발자입니다."
+        text: "일일 루틴(커밋, 블로그)을 통해 나날이 성장해 가고 있습니다.<br>
+        운동, 독서를 통해 심신도 같이 단련하는 중입니다."
+      
+      - title: "쉴 줄 아는 개발자입니다."
+        text: "다양한 취미(운동, 독서, 영화)를 지니고 있습니다.<br>
+        쉴 때는 공부 생각은 아예 하지 않을 정도로 제대로 쉴 줄 압니다."
+
 services:
     title: "나만의 강점"
-    text: "끈기, 책임감을 기반으로 성장해 가는 개발자"
+    text: 
     section: services
     list:
       - title: "끈기"
@@ -87,8 +102,8 @@ clients:
         logo: assets/img/clients/creative-market.jpg
     
 team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "기술 스택"
+    text: "새로운 기술에 대한 도전을 계속하는 중입니다."
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:

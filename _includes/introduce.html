@@ -1,0 +1,23 @@
+<!-- Introduce -->
+  <div class="intro-section" id="{{ site.data.sitetext.introduce.section | default: "introduce" }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext.introduce.title | default: "Introduce" }}</h2>
+          {% if site.data.sitetext.introduce.text %}
+		  <h3 class="section-subheading text-muted">{{ site.data.sitetext.introduce.text }}</h3>
+		  {% endif %}
+        </div>
+      </div>
+
+      <div class="intro-title">
+        {% for intro in site.data.sitetext.introduce.list %}
+        <div class="intro-title-col">
+          <h4 class="introduce-heading">{{ intro.title | markdownify }}</h4>
+          {% if intro.text %}<div class="text-muted">{{ intro.text | markdownify }}</div>{% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+<!-- End Introduce -->

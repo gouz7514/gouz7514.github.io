@@ -2,3 +2,10 @@
     width: 250px;
     height: 297px;
 } */
+.intro-section {
+    padding-top: 75px;
+    padding-bottom: 30px;
+}
+.intro-title {
+    font-weight: 500;
+}
