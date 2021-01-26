@@ -7,11 +7,12 @@
     padding-bottom: 30px;
 }
 .intro-container {
-    opacity: 0;
+    transform: scale(0.92);
     transition: all .5s;
 }
 .intro-container.active {
-    opacity: 1;
+    transform: scale(1);
+    transition: all .5s;
 }
 .intro-title {
     font-weight: 500;
