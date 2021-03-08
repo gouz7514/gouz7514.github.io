@@ -91,6 +91,10 @@
       margin: 20px 0 30px;
       @include serif-font;
     }
+    ul.list-initial {
+      text-align: initial;
+      list-style: none;
+    }
     ul.list-inline {
       margin-top: 0;
       margin-bottom: 30px;
@@ -101,6 +105,9 @@
     button {
       cursor: pointer;
     }
+  }
+  .modal-content-text {
+    text-align: initial;
   }
   .close-modal {
     position: absolute;
